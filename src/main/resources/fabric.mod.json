@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "transmitter-pearl",
+  "version": "${version}",
+  "name": "Transmitter Pearl",
+  "description": "Its supposed to be usless but for some reason its not?",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/transmitter-pearl/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.yellowstackdevelopment.transmitterPearl.client.TransmitterPearlDataGenerator"
+    ],
+    "client": [
+      "org.yellowstackdevelopment.transmitterPearl.client.TransmitterPearlClient"
+    ],
+    "main": [
+      "org.yellowstackdevelopment.transmitterPearl.TransmitterPearl"
+    ]
+  },
+  "mixins": [
+    "transmitter-pearl.mixins.json",
+    {
+      "config": "transmitter-pearl.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

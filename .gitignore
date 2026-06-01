@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+
+# Fabric
+run/
+
+# IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# OS
+.DS_Store

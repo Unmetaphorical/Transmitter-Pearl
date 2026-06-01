@@ -1,0 +1,6 @@
+{
+  "item.transmitter_pearl.transmitter_pearl": "Transmitter Pearl",
+  "itemGroup.transmitter_pearl.item_group": "Transmitter Pearl",
+  "gamerule.linkTrust": "Transmitter Pearl Link Trust",
+  "gamerule.linkPearlCrafting": "Enable Transmitter Pearl Crafting"
+}

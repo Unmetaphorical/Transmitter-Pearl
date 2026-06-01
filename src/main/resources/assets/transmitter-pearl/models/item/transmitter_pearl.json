@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "transmitter_pearl:item/transmitter_pearl"
+  }
+}

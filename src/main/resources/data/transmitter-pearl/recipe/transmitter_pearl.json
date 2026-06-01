@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#= ",
+    "oEe",
+    " =#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "=": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "o": {
+      "item": "minecraft:ender_pearl"
+    },
+    "E": {
+      "item": "minecraft:end_crystal"
+    },
+    "e": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "transmitter_pearl:transmitter_pearl"
+  }
+}
